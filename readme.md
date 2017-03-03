@@ -12,6 +12,7 @@ Réalisé par les apprenants Access Code School Besançon
 - cloner le dépôt principal : https://github.com/yvestan/ProjetCaem
 - créer une base de données et ajouter le dump archive/sql/caem_with_data.sql
 - copier le fichier .env.example en .env et modifier les accès à la base de données dedans
+- lancer le serveur php artisan serve (qui pointe sur "public") ou créer un Vhost. Attention, le serveur intégré ne gère pas très bien la lib GD
 
 ## Ne pas commiter :
 
