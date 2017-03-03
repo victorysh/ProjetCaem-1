@@ -41,11 +41,11 @@
 @section('header')
     <section class="content-header">
       <h1>
-        File manager
+        Médiathèque
       </h1>
       <ol class="breadcrumb">
-        <li><a href="{{ url(config('backpack.base.route_prefix')) }}">Admin</a></li>
-        <li class="active">File Manager</li>
+        <li><a href="{{ url(config('backpack.base.route_prefix')) }}">Administration</a></li>
+        <li class="active">Médiathèque</li>
       </ol>
     </section>
 @endsection
