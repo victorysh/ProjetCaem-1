@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>page adhérent</title>
+    <!-- favicon logo CAEM  -->
+    <link rel="icon" type="image/png" href="asset/maquette/logo_CAEM.png">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="asset/css/page_adherent.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+
+        <!-- menu burger -->
+        <nav class="navbar navbar-inverse">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mb_menu" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- navbar visible -->
+            <div class="collapse navbar-collapse block-center">
+                <ul class="nav navbar-nav navbar-center ">
+                    <li><a href="#">Acceuil</a></li>
+                    <li><a href="#">Mon Parcours musical</a></li>
+                    <li><a href="#">Tarifs & inscriptions</a></li>
+                    <li><a href="#">Évenements</a></li>
+                    <li><a href="#">Mon Compte?</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="nav-orange"></div>
+
+
+
+
+    </header>
+    <h1>Bonjour {{Prénom}}</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <!-- Panel coordonées -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Coordonnées</h3>
+                    </div>
+                    <div class="panel-body">
+                        <h4>Eleve:</h4>
+                        <span>Lucie</span>
+                        <span>Corvus</span>
+                        <span>née le 05/06/2148</span>
+
+                        <h4> Responsable légal:</h4>
+                        <span>Lyra</span>
+                        <span>Corvus</span>
+                        <p>O6 00 00 33 10</p>
+                        <p>LucieLyra@superadress.com</p>
+                        <p>19 rue de Lorient</p>
+                        <p>25000</p>
+                        <p>Besançon</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Panel cours -->
+
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Mes cours</h3>
+                    </div>
+                    <div class="panel-body">
+                        <table class="table">
+                            <tr>
+                                <th>Jour</th>
+                                <th>Heure</th>
+                                <th>Professeur</th>
+                                <th>Activité</th>
+                                <th>Lieu</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Mercredi</p>
+                                </td>
+                                <td>
+                                    <p>15h à 15h30</p>
+                                </td>
+                                <td>
+                                    <p>Mr Sully</p>
+                                </td>
+                                <td>
+                                    <p>Batterie</p>
+                                </td>
+                                <td>
+                                    <p> Salle Chopin</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Vendredi</p>
+                                </td>
+                                <td>
+                                    <p>18h à 19h</p>
+                                </td>
+                                <td>
+                                    <p>Mme Parker</p>
+                                </td>
+                                <td>
+                                    <p>Hip hop</p>
+                                </td>
+                                <td>
+                                    <p>Lycée Notre Dame salle Hogwart</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Jour</p>
+                                </td>
+                                <td>
+                                    <p>Heure</p>
+                                </td>
+                                <td>
+                                    <p>Professeur</p>
+                                </td>
+                                <td>
+                                    <p>Activité</p>
+                                </td>
+                                <td>
+                                    <p>Lieu</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Jour</p>
+                                </td>
+                                <td>
+                                    <p>Heure</p>
+                                </td>
+                                <td>
+                                    <p>Professeur</p>
+                                </td>
+                                <td>
+                                    <p>Activité</p>
+                                </td>
+                                <td>
+                                    <p>Lieu</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- Panel Payement -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Payement</h3>
+            </div>
+            <div class="panel-body">
+                <table class="table">
+                    <tr>
+                        <th>Activité</th>
+                        <th>Tarif</th>
+                        <th>A payé</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Batterie</p>
+                        </td>
+                        <td>
+                            <p>120$</p>
+                        </td>
+                        <td>
+                            <!-- validé ou non validé, fontawesome here -->
+                            <i class="fa fa-check fa-2x" aria-hidden="true" style="color: green"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Hip hop</p>
+                        </td>
+                        <td>
+                            <p>120$</p>
+                        </td>
+                        <td>
+                            <!-- validé ou non validé, fontawesome here -->
+                            <i class="fa fa-times fa-2x" aria-hidden="true" style="color: red"></i>
+                        </td>
+                    </tr>
+                    <th>TOTAL à l'année:</th>
+                    <td>
+                        <p>240$</p>
+                    </td>
+                    <td>
+                        <p>
+                            <!-- à payé -->
+                            120$
+                        </p>
+                    </td>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Panel Informations complémentaires -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Informations complémentaires</h3>
+            </div>
+            <div class="panel-body">
+                <p>J'ai certifié avoir autorisé le CAEM Besançon à photographier ou filmer mon enfant ou moi, durant les cours et les spectacles organisés par l'association et à utiloiser ces photographies pour les supports de communiactions de la structure.</p>
+                <p>j'ai certifié avpor pris connaissance des statuts de l'associations et je souhaite devenir adhérent du Carrefour d'Animation et d'Expression Musicales.</p>
+            </div>
+        </div>
+    </div>
+    <footer>il n'y a rien dans le footer
+        <ul>
+            <li>contact</li>
+            <li>acceuil</li>
+            <li>autre...</li>
+        </ul>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+//IN THIS FILE YOU CAN CHANGE COLORS AND FONT STYLE FOR THE WHOLE WEBSITE
+
+
+
+
+/*=================*/
+/*COLOR VARIABLES :*/
+/*=================*/
+
+//global colors:
+$caemDark: #1a1a1a; /*currently background color for footer / header*/
+$caemGrey: #999999; /*color of the font on the header / footer for some elements*/
+$caemOrange: #fc9633;
+$caemBlue: #35a1e6;
+$caemPink: #e83377;
+$caemGreen: #4dd433;
+$caemAlert: #db0010;
+$caemWhite: #ffffff; /*plain white color, used to create a background in some elements*/
+
+
+
+
+/*=======================*/
+/*CHANGE WEBSITE COLORS :*/
+/*=======================*/
+
+//MAIN CHART COLOR:
+$mainChartColor: $caemOrange;
+
+//MAIN ACTION COLOR:
+$mainColorAction: $caemBlue;
+
+//HEADER / FOOTER BACKGROUND COLOR :
+$headerFooterMainColor: $caemDark;
+
+
+
+
+/*=================*/
+/*FONTS VARIABLES :*/
+/*=================*/
+
+//title font:
+$mainTitleType: Quicksand;
+$mainTitleWeight: 700; /*300, 400 or 700 availables*/
+$mainTitleSize: 1.5em;
+$mainTitleColor: $caemDark; /*check for global colors above or create your own*/
+
+//subtitle font:
+$mainSubtitleType: Quicksand;
+$mainSubtitleWeight: 700; /*300, 400 or 700 availables*/
+$mainSubtitleSize: 1.2em;
+$mainSubtitleColor: $caemDark; /*check for global colors above or create your own*/
+
+//main font:
+$mainFontType: Quicksand;
+$mainFontWeight: 400; /*300, 400 or 700 availables*/
+$mainFontSize: 1.1em;
+$mainFontColor: $caemDark; /*check for global colors above or create your own*/
+
+//light font:
+$lightFontType: Quicksand;
+$lightFontWeight: 300; /*300, 400 or 700 availables*/
+$lightFontSize: 1.7rem;
+$lightFontColor: $caemDark; /*check for global colors above or create your own*/
+
+//footer font :
+$footerFontType: Quicksand; /*Quicksand available*/
+$footerFontWeight: 400; /*300, 400 or 700 availables*/
+$footerFontSize: 1.1em;
+$footerFontColor: $caemWhite; /*check for global colors above or create your own*/
+
+//header nav font :
+$headerNavFontType: Quicksand; /*Quicksand available*/
+$headerNavFontWeight: 400; /*300, 400 or 700 availables*/
+$headerNavFontSize: 1.5em;
+$headerNavFontColor: $caemWhite; /*check for global colors above or create your own*/
+
+//button font :
+$btnFontType: Quicksand; /*Quicksand available*/
+$btnFontWeight: 400; /*300, 400 or 700 availables*/
+$btnFontSize: 1.3em;
+$btnFontColor: $caemWhite; /*check for global colors above or create your own*/
+$btnBackgroundColor: $mainColorAction;
+
+
+
+
+/*===============*/
+/*BORDER SHADOW :*/
+/*===============*/
+
+$mainNewsShadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+
+
+
+
+/*===============================*/
+/*BUTTONS AND EFFECTS VARIABLES :*/
+/*===============================*/
+
+//button symbol:
+$mainButtonSymbol: "\25B8";
+
+
+/*news*/
+$mainNewsHeaderColor: $mainChartColor;
+$mainNewsPadding: 0 1.3em;
+$mainNewsImgPadding: 1.3em 1.5em;
+$mainNewsImgSizeHeight: 250px;
+$mainNewsImgSizeWidth: 100%;

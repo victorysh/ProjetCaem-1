@@ -1,0 +1,42 @@
+/*NAVBAR*/
+.navbar{
+  border-radius: 0px;
+  font-family: none;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.navbar ul li a{
+  color: #fff !important;
+}
+/*--------------MERCI Vieux code---------------*/
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+    }
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+/*----------------------------*/
+/*navbar orange*/
+.nav-orange{
+  width: 100%;
+  height: 1vh;
+  background-color: #FC9633;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+/*FORMULAIRE*/
+.form-control{
+  width: 55vh;
+}
+#mb_form{
+  padding-top: 5px;
+   /*border: 1px solid black;*/
+   background-color :  #FC9633;
+}
+#input_mail, #input_password{
+  max-width: 350px;
+}
