@@ -1,5 +1,5 @@
 <!--CALLING THE DEFAULT LAYOUT-->
-@extends('layouts.errors')
+@extends('front.layouts.errors')
 <!------------------------------>
 
 

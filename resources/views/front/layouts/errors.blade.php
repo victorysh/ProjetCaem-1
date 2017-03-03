@@ -3,7 +3,7 @@
 
 
 	<!--HEAD-->
-	@include('includes.head')
+	@include('front.includes.head')
 	<!-------->
 
 
