@@ -28,6 +28,8 @@ class IndexController extends AdminController
      
         $districtsArray = array();
         $agearray = array();
+        $districtsColorsArray = array();
+        $districtsLabelsArray = array();
         
         foreach ($districts as $district) {
        
